@@ -1,0 +1,26 @@
+Introduction To Microservices:
+	
+Application
+	-Monolithic
+		A monolithik application is a single-tiered software application.Has user interface and data access 		code combined into a single program from a single platform.
+		
+		Challanges:
+			-Large codebase become mess over the time
+			-Multiple team working on single codebase become tedious
+			-Scaling up certain parts of the application
+			-Technology updates/rewrite become complex and expensive tasks.
+	-Microservices
+		-An engeneering approach focused on decomposing applications with well-defined interfaces.
+		-Deployed independently as services and operated by small teams who own the entire lifecycle of the 		service.
+		-Each service handles a specific business domain(logging,auth,orders,customers)
+		-Each service provides the implementation for user interface ,business logic and connection to 		database;
+		
+
+	-Characteristics of Micro Service
+		-Single function
+		-Well defined interface
+		-Independent
+		-Small Team
+		-Entire Lifecycle
+		
+
